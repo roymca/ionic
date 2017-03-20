@@ -45,7 +45,7 @@ confirmPopup.then(function(res) {
 if(res) {
 console.log(id);
 //console.log('You are sure');
-$http.delete(' /contactlist/'+id).then(function(response){
+$http.delete(' /contactlists/'+id).then(function(response){
 $state.transitionTo($state.current, $stateParams,{reload: true});
 //A Alert Popup
 var alertPopup = $ionicPopup.alert({
