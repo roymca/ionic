@@ -24,7 +24,8 @@ cache: false,
 controller: 'ShowPop'
 });
 $urlRouterProvider.otherwise('/list');
-});app.controller('AppCtrl', function($scope, $ionicPopup, $http,$state,$stateParams){
+});
+app.controller('AppCtrl', function($scope, $ionicPopup, $http,$state,$stateParams){
 $http({
 method: "GET",
 url: " /contactlists",
