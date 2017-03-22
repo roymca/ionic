@@ -1,7 +1,7 @@
 {
 "name": "Ionic Starter",
 "description": "A simple Ionic app for Heroku",
-"repository":"https://github.com/ranjan9701/listapp.git",
+"repository":"https://github.com/roymca/ionic.git",
 "logo":"http://node-js-sample.herokuapp.com/node.svg",
 "keywords": ["ionic", "express", "static"]
 }
